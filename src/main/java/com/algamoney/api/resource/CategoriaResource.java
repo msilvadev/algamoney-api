@@ -53,11 +53,3 @@ public class CategoriaResource {
 		return categoria != null ? ResponseEntity.ok(categoria) : ResponseEntity.notFound().build();	
 	}
 }
-
-
-
-
-
-
-
-
