@@ -2,7 +2,7 @@
 
 Api Rest criado para estudos das tecnologias abaixo:
 
-Java;
-SpringFramework;
-MySQL;
+Java |
+SpringFramework |
+MySQL |
 FlyWay
