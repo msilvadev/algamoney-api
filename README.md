@@ -1,11 +1,8 @@
 # algamoney-api
 
-Api Rest, utilizando:
+Api Rest criado para estudos das tecnologias abaixo:
 
-Java
-
-Spring
-
-MySQL
-
+Java;
+SpringFramework;
+MySQL;
 FlyWay
