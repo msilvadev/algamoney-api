@@ -71,31 +71,4 @@ public class CategoriaResource {
 	public ResponseEntity<Categoria> atualizadarCategoria(@PathVariable Long codigo, @Valid @RequestBody Categoria categoria){
 		return ResponseEntity.ok(categoriaService.atualizar(codigo, categoria));
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
