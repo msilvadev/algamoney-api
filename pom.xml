@@ -37,6 +37,21 @@
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-core</artifactId>
 		</dependency>
+		
+<!-- 		As duas dependencias a baixo: hibernate-java8 jackson-datatype-jsr310 -->
+<!-- 		são necessárias para que seja convertida a data do banco de dados para -->
+<!-- 		o LocalDate (nova API de datas do JAVA 8) -->
+<!-- 		Hibernate support java 8 -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-java8</artifactId>
+		</dependency>
+
+<!-- 		Support Jackson for dates of Java 8 -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-jsr310</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
