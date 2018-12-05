@@ -1,6 +1,6 @@
 # algamoney-api
 
-Api Rest criado para estudos das tecnologias abaixo:
+Api Rest criada para estudo das tecnologias abaixo:
 
 Java |
 SpringFramework |
