@@ -69,6 +69,12 @@
 		    <!-- <version>8.0.11</version> -->
 		</dependency>
 		
+	    <!-- biblioteca para poder pegar a causa das exceções  -->
+		<dependency>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-lang3</artifactId>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
