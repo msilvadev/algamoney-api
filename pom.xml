@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.algaworks.algamoney-api</groupId>
 	<artifactId>algamoney-api</artifactId>
- 	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>algamoney-api</name>
@@ -14,8 +15,8 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
- 		<version>2.0.4.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<version>2.0.4.RELEASE</version>
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
@@ -37,17 +38,18 @@
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-core</artifactId>
 		</dependency>
-		
-<!-- 		As duas dependencias a baixo: hibernate-java8 jackson-datatype-jsr310 -->
-<!-- 		são necessárias para que seja convertida a data do banco de dados para -->
-<!-- 		o LocalDate (nova API de datas do JAVA 8) -->
-<!-- 		Hibernate support java 8 -->
+
+		<!-- As duas dependencias a baixo: hibernate-java8 jackson-datatype-jsr310 -->
+		<!-- são necessárias para que seja convertida a data do banco de dados 
+			para -->
+		<!-- o LocalDate (nova API de datas do JAVA 8) -->
+		<!-- Hibernate support java 8 -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-java8</artifactId>
 		</dependency>
 
-<!-- 		Support Jackson for dates of Java 8 -->
+		<!-- Support Jackson for dates of Java 8 -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.datatype</groupId>
 			<artifactId>jackson-datatype-jsr310</artifactId>
@@ -64,17 +66,17 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-		    <groupId>mysql</groupId>
-		    <artifactId>mysql-connector-java</artifactId>
-		    <!-- <version>8.0.11</version> -->
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<!-- <version>8.0.11</version> -->
 		</dependency>
-		
-	    <!-- biblioteca para poder pegar a causa das exceções  -->
+
+		<!-- biblioteca para poder pegar a causa das exceções -->
 		<dependency>
-		    <groupId>org.apache.commons</groupId>
-		    <artifactId>commons-lang3</artifactId>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
 		</dependency>
-		
+
 	</dependencies>
 
 	<build>
